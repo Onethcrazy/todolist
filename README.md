@@ -8,7 +8,7 @@ Assesment LSP Widyatama tanggal 14 Juni 2025
 -Mengedit tugas yang sudah ada
 
 # Struktur Folder
-- index.php - Halaman utama
+- index.php - Halaman utama aplikasi
 - README.md - Panduan
 
 # Cara menjalankan tugas
@@ -18,3 +18,4 @@ Assesment LSP Widyatama tanggal 14 Juni 2025
 
 # Kontributtor
 - INDRAYANA https://github.com/Onethcrazy
+
