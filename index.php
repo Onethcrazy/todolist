@@ -1,7 +1,7 @@
 <?php
 
 session_start();
-// session_destroy(); // ← HAPUS COMMENT ini sekali saja untuk reset data lama
+// session_destroy(); // ← Untuk menghapus sesi sebelumnya
 
 if (!isset($_SESSION['tasks'])) {
   $_SESSION['tasks'] = [];
@@ -47,7 +47,7 @@ if (isset($_GET['delete'])) {
   exit;
 }
 
-// Tampilkan form edit jika diminta
+// Menampilkan Form Edit
 $editIndex = isset($_GET['edit']) ? (int) $_GET['edit'] : -1;
 
 // Fungsi tampilkan daftar tugas
